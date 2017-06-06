@@ -11,6 +11,8 @@ import SWRevealViewController
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var panelView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,7 +29,14 @@ class HomeViewController: UIViewController {
         
     }
 
+    @IBAction func reCenterButton_TouchUpInside(_ sender: Any) {
+    }
 
-
+    @IBAction func reportButton_TouchUpInside(_ sender: Any) {
+    }
+    
+    @IBAction func unlockButton_TouchUpInside(_ sender: Any) {
+    }
+    
 }
 
