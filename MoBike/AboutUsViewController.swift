@@ -1,33 +1,28 @@
 //
-//  HomeViewController.swift
+//  AboutUsViewController.swift
 //  MoBike
 //
-//  Created by Harry Ng on 05/06/2017.
+//  Created by Harry Ng on 06/06/2017.
 //  Copyright © 2017 appconcept. All rights reserved.
 //
 
 import UIKit
 import SWRevealViewController
 
-class HomeViewController: UIViewController {
+class AboutUsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.navigationItem.titleView = UIImageView(image: #imageLiteral(resourceName: "ofoLogo"))
-        self.navigationItem.leftBarButtonItem?.image = #imageLiteral(resourceName: "leftTopImage").withRenderingMode(.alwaysOriginal)
-        self.navigationItem.rightBarButtonItem?.image = #imageLiteral(resourceName: "rightTopImage").withRenderingMode(.alwaysOriginal)
-        
+
         if let revealVC = revealViewController() {
             revealVC.rearViewRevealWidth = 280
             navigationItem.leftBarButtonItem?.target = revealVC
             navigationItem.leftBarButtonItem?.action = #selector(SWRevealViewController.revealToggle(_:))
             view.addGestureRecognizer(revealVC.panGestureRecognizer())
         }
-        
+
     }
 
-
+   
 
 }
-

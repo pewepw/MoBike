@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A58DD101EE69502002B613B /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A58DD0F1EE69502002B613B /* MenuTableViewController.swift */; };
 		4A91D1D21EE5AF0600E5C0D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A91D1D11EE5AF0600E5C0D2 /* AppDelegate.swift */; };
 		4A91D1D41EE5AF0600E5C0D2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A91D1D31EE5AF0600E5C0D2 /* HomeViewController.swift */; };
 		4A91D1D71EE5AF0600E5C0D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A91D1D51EE5AF0600E5C0D2 /* Main.storyboard */; };
@@ -14,9 +15,16 @@
 		4A91D1DC1EE5AF0600E5C0D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A91D1DA1EE5AF0600E5C0D2 /* LaunchScreen.storyboard */; };
 		4A91D1E51EE5B30000E5C0D2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A91D1E41EE5B30000E5C0D2 /* MapKit.framework */; };
 		4A91D1E71EE5B44C00E5C0D2 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A91D1E61EE5B44C00E5C0D2 /* WebViewController.swift */; };
+		4AC07B5D1EE6A18200185EC7 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC07B5C1EE6A18200185EC7 /* AboutUsViewController.swift */; };
+		6C095AC62F24C7436F637635 /* Pods_MoBike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18577144632E6ED654CA38A0 /* Pods_MoBike.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18577144632E6ED654CA38A0 /* Pods_MoBike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoBike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1E2136273CB2E01364E506 /* Pods-MoBike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoBike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoBike/Pods-MoBike.debug.xcconfig"; sourceTree = "<group>"; };
+		45F87FCDAFA26E342B7A268B /* Pods-MoBike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoBike.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoBike/Pods-MoBike.release.xcconfig"; sourceTree = "<group>"; };
+		4A58DD0F1EE69502002B613B /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuTableViewController.swift; path = ../MenuTableViewController.swift; sourceTree = "<group>"; };
+		4A58DD131EE6985C002B613B /* MoBike-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoBike-Bridging-Header.h"; sourceTree = "<group>"; };
 		4A91D1CE1EE5AF0600E5C0D2 /* MoBike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoBike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A91D1D11EE5AF0600E5C0D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A91D1D31EE5AF0600E5C0D2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +34,7 @@
 		4A91D1DD1EE5AF0600E5C0D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A91D1E41EE5B30000E5C0D2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		4A91D1E61EE5B44C00E5C0D2 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		4AC07B5C1EE6A18200185EC7 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +43,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A91D1E51EE5B30000E5C0D2 /* MapKit.framework in Frameworks */,
+				6C095AC62F24C7436F637635 /* Pods_MoBike.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +56,7 @@
 				4A91D1D01EE5AF0600E5C0D2 /* MoBike */,
 				4A91D1CF1EE5AF0600E5C0D2 /* Products */,
 				4A91D1E31EE5B30000E5C0D2 /* Frameworks */,
+				F1C80AF7C6BEA90F50599539 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,12 +72,15 @@
 			isa = PBXGroup;
 			children = (
 				4A91D1D11EE5AF0600E5C0D2 /* AppDelegate.swift */,
+				4A58DD0F1EE69502002B613B /* MenuTableViewController.swift */,
 				4A91D1D31EE5AF0600E5C0D2 /* HomeViewController.swift */,
 				4A91D1E61EE5B44C00E5C0D2 /* WebViewController.swift */,
+				4AC07B5C1EE6A18200185EC7 /* AboutUsViewController.swift */,
 				4A91D1D51EE5AF0600E5C0D2 /* Main.storyboard */,
 				4A91D1D81EE5AF0600E5C0D2 /* Assets.xcassets */,
 				4A91D1DA1EE5AF0600E5C0D2 /* LaunchScreen.storyboard */,
 				4A91D1DD1EE5AF0600E5C0D2 /* Info.plist */,
+				4A58DD131EE6985C002B613B /* MoBike-Bridging-Header.h */,
 			);
 			path = MoBike;
 			sourceTree = "<group>";
@@ -75,8 +89,18 @@
 			isa = PBXGroup;
 			children = (
 				4A91D1E41EE5B30000E5C0D2 /* MapKit.framework */,
+				18577144632E6ED654CA38A0 /* Pods_MoBike.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1C80AF7C6BEA90F50599539 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B1E2136273CB2E01364E506 /* Pods-MoBike.debug.xcconfig */,
+				45F87FCDAFA26E342B7A268B /* Pods-MoBike.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A91D1E01EE5AF0600E5C0D2 /* Build configuration list for PBXNativeTarget "MoBike" */;
 			buildPhases = (
+				0967372BEE30E67BFBEE2B33 /* [CP] Check Pods Manifest.lock */,
 				4A91D1CA1EE5AF0600E5C0D2 /* Sources */,
 				4A91D1CB1EE5AF0600E5C0D2 /* Frameworks */,
 				4A91D1CC1EE5AF0600E5C0D2 /* Resources */,
+				CA30F778BE23D9D4079D364F /* [CP] Embed Pods Frameworks */,
+				4E2830F65B864F9B6FC7B6EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -112,6 +139,7 @@
 					4A91D1CD1EE5AF0600E5C0D2 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 46SPJZ9KQP;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
@@ -152,11 +180,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0967372BEE30E67BFBEE2B33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E2830F65B864F9B6FC7B6EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoBike/Pods-MoBike-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA30F778BE23D9D4079D364F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoBike/Pods-MoBike-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A91D1CA1EE5AF0600E5C0D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AC07B5D1EE6A18200185EC7 /* AboutUsViewController.swift in Sources */,
+				4A58DD101EE69502002B613B /* MenuTableViewController.swift in Sources */,
 				4A91D1D41EE5AF0600E5C0D2 /* HomeViewController.swift in Sources */,
 				4A91D1E71EE5B44C00E5C0D2 /* WebViewController.swift in Sources */,
 				4A91D1D21EE5AF0600E5C0D2 /* AppDelegate.swift in Sources */,
@@ -280,26 +358,33 @@
 		};
 		4A91D1E11EE5AF0600E5C0D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B1E2136273CB2E01364E506 /* Pods-MoBike.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 46SPJZ9KQP;
 				INFOPLIST_FILE = MoBike/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appconcept.MoBike;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MoBike/MoBike-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		4A91D1E21EE5AF0600E5C0D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F87FCDAFA26E342B7A268B /* Pods-MoBike.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 46SPJZ9KQP;
 				INFOPLIST_FILE = MoBike/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appconcept.MoBike;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MoBike/MoBike-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -323,6 +408,7 @@
 				4A91D1E21EE5AF0600E5C0D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
